@@ -1,32 +1,25 @@
-# pmlg-poem-generator
+Forked from https://github.com/tfavory/pmlg-poem-generator
 
-This is a poem generator trained with Gated Recurrent Units (GRU) on a corpus of poems including those in:
-* [Poems Every Child Should Know](http://www.gutenberg.org/ebooks/16436), by Mary E. Burt
-* [Poems](http://www.gutenberg.org/ebooks/52546), by Thomas Hall Shastid
-* [Poems of Progress and New Thought Pastels](http://www.gutenberg.org/ebooks/3228), by Ella Wheeler Wilcox
-* [Poems Teachers Ask For](http://www.gutenberg.org/ebooks/18909)
-* [Poems Teachers Ask For, Book Two](http://www.gutenberg.org/ebooks/19469)
-* [The Pied Piper of Hamelin, and Other Poems](http://www.gutenberg.org/ebooks/42850), by Robert Browning
+This tries to generate out of copyright erotic fiction. Not safe for work!
 
-Most of the code comes from [Tensorflow's text generation tutorial](https://github.com/tensorflow/tensorflow/blob/r1.10/tensorflow/contrib/eager/python/examples/generative_examples/text_generation.ipynb).
+# Corpus
 
-Please refer to the notebook for an overview of the results.
+The corpus is from these lists
 
-## Improvement ideas
+http://www.gutenberg.org/wiki/Erotic_Fiction_(Bookshelf) & https://en.wikisource.org/wiki/Portal:Erotica
 
-### Short term:
-* Clean the corpus (done)
-* Find more data
-* Save a model
-* Try LSTM
-* Train a model based on sequences of words instead of characters (memory issues)
+# Example output
 
-### Middle term goals:
-* Create a rhyme generator (done, LSTM)
-* Train a model backward: from the last word to the first
-* Try Bi-directional LSTMs
+These are some of the more tame outputs:
 
-The idea is to generate the rhymes first, and then write the lines from the last word to the first. This process makes sure that the generated poems rhyme.
+    frightful...
+    frightful sight of the country for the purpose of a few days after the secret she had been surprised to see her splendid buttocks and continued his long and longing and longing and
 
-### Long term goals
-* Generate other kind of text (Haiku, magazines, articles, books...)
+    Spontaneously...
+    Spontaneously and a proper plant of the present between them at the same time, and all the same time after a few minutes we had been placed by the sea and the second days of the previous day.
+
+    all overcome...
+    all overcome of the secret and the second course of the previous discussion of the secret and very fair state of the present. I was all the same time and as she could not help seeing the second course of the same
+
+    nuns...
+    nuns the most profoundestrophied between the lawns, and the son of a few days and found the shadows of the street, and there was no other beauty of the seaside of the previous ones of the previous of the
